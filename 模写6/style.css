@@ -1,0 +1,438 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+body {
+  font-family: "ヒラギノ明朝 ProN", "Hiragino Mincho ProN", "Yu Mincho Light", YuMincho, "Yu Mincho", 游明朝体, sans-serif;
+  text-align: center;
+}
+a {
+  color: black;
+  text-decoration: none;
+}
+.header-wrapper {
+  width: 100%;
+  height: 745px;
+  background: url(img/main.png) no-repeat center / cover;
+}
+.header-area {
+  max-width: 1095px;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+}
+.header img {
+  width: 135px;
+  margin-top: 28px;
+}
+.header ul {
+  list-style: none;
+  display: flex;
+  margin: 50px 5px 0 auto;
+}
+.header ul li {
+  margin: 0 30px;
+}
+.header ul li a {
+  font-size: 18px;
+}
+.header ul li a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.head-ttl h1 {
+  font-size: 48px;
+  font-weight: normal;
+  margin: 300px 0;
+}
+.sec-ttl {
+  font-size: 38px;
+  font-weight: normal;
+  margin: 95px 0;
+}
+.sec01 {
+  width: 700px;
+  margin: 0 auto;
+}
+.sec01 .thumb dd {
+  font-size: 18px;
+  text-align: center;
+}
+.sec01 .thumb dt {
+  border-bottom: 1px solid black;
+  height: 85px;
+  display: flex;
+  align-items: center;
+}
+.sec01 .thumb dt a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.sec01 .thumb dt a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.sec01 .thumb dt a p {
+  display: inline-block;
+}
+.sec01 .thumb dt span {
+  font-size: 11px;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 0 30px;
+}
+.sec02 {
+  max-width: 980px;
+  margin: 85px auto 180px;
+}
+.sec02 .example {
+  display: flex;
+  justify-content: space-between;
+}
+.sec02 article {
+  margin: 0 3%;
+}
+.sec02 article h3 {
+  font-size: 24px;
+  font-weight: normal;
+}
+.sec02 article .place {
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+}
+.sec02 article .building-photo {
+  width: 425px;
+  margin-bottom: 90px;
+}
+.sec02 a .more-img {
+  width: 300px;
+  margin-bottom: 80px;
+}
+.sec02 a .more-img:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+.sec02 .example-nav a {
+  box-sizing: border-box;
+}
+.sec02 .example-nav a p {
+  display: inline-block;
+  height: 50px;
+  width: 200px;
+  text-align: center;
+  font-size: 20px;
+  border: 1px solid black;
+  line-height: 50px;
+}
+.sec03 ul {
+  display: flex;
+  list-style: none;
+}
+.sec03 ul li {
+  width: calc(100% / 3);
+}
+.sec03 ul li a:hover {
+  opacity: 0.5;
+  transition: 0.5s;
+}
+.sec03 ul li img {
+  width: 100%;
+  vertical-align: bottom;
+}
+footer {
+  max-width: 100%;
+  height: 155px;
+  background-color: black;
+}
+footer .footer-area {
+  max-width: 980px;
+  margin: 0 auto;
+}
+footer .footer-logo img {
+  width: 95px;
+  height: 45px;
+}
+footer .footer-nav{
+  display: flex;
+  align-items: center;
+  height: 120px;
+}
+footer .footer-list {
+  margin-left: auto;
+}
+footer .footer-list ul {
+  list-style: none;
+  display: flex;
+}
+footer .footer-list ul li {
+  margin: 0 30px;
+}
+footer .footer-list ul li a {
+  color: white;
+  font-size: 18px;
+}
+footer .footer-list ul li a:hover {
+  opacity: 0.5;
+  transition: 0.3s;
+}
+footer p {
+  color: white;
+  height: 35px;
+  line-height: 35px;
+  font-size: 12px;
+  margin: 0;
+}
+@media(min-width: 961px) {
+  .hamburger-nav {
+    display: none;
+  }
+}
+@media(max-width: 960px) {
+  .header img {
+    width: 90px;
+    margin-left: 20px;
+  }
+  .header ul {
+    display: none;
+  }
+  .header-wrapper {
+    height: 395px;
+  }
+  .head-ttl h1 {
+    font-size: 24px;
+    margin: 130px 0;
+  }
+  #nav {
+    position: absolute;
+    height: 300px;
+    width: 40%;
+    right: -40%;
+    top: 0;
+    transition: 0.7s;
+  }
+  #nav ul {
+    list-style: none;
+  }
+  #nav ul li {
+    border-bottom: 1px solid black;
+  }
+  #nav ul li a {
+    color: #000;
+  }
+  #hamburger {
+    position: absolute;
+    top: 30px;
+    right: -5px;
+    width: 45px;
+    height: 16px;
+    transition: 0.7s;
+    cursor: pointer;
+  }
+  .inner_line {
+    display: block;
+    position: absolute;
+    left: 0;
+    width: 20px;
+    height: 1px;
+    background-color: #000;
+    transition: 0.5s;
+    border-radius: 4px;
+  }
+  #line1 {
+    top: 0;
+  }
+  #line2 {
+    top: 8px;
+  }
+  #line3 {
+    bottom: 0;
+  }
+  .in {
+    transform: translateX(-100%);
+  }
+  .line_1, .line_2, .line_3 {
+    background-color: #000;
+  }
+  .line_1 {
+    transform: translateY(8px) rotate(-45deg);
+    top: 0;
+  }
+  .line_2 {
+    opacity: 0;
+  }
+  .line_3 {
+    transform: translateY(-8px) rotate(45deg);
+    bottom: 0;
+  }
+  .sec-ttl {
+    font-size: 24px;
+  }
+  .sec01 {
+    width: 96%;
+  }
+  .sec01 .thumb dt {
+    height: 120px;
+    text-align: left;
+  }
+  .sec01 .thumb dt .news-nav {
+    display: block;
+    line-height: 25px;
+  }
+  .sec01 .thumb dt a {
+    width: 100%;
+    display: block;
+  }
+  .sec01 .thumb dt a p {
+    display: block;
+    line-height: 42px;
+  }
+  .sec02 {
+    max-width: 700px;
+    margin: 100px 10px;
+    margin: 0 auto;
+  }
+  .sec02 .example {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .sec02 article .place {
+    height: 50px;
+    line-height: 50px;
+  }
+  .sec02 article .building-photo {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .sec02 a .more-img {
+    margin-bottom: 50px;
+  }
+  .sec03 ul {
+    display: block;
+  }
+  .sec03 ul li {
+    width: 100%;
+  }
+  footer {
+    width: 100%;
+    height: 370px;
+  }
+  footer .footer-logo img {
+    order: 1;
+    width: 90px;
+  }
+  footer .footer-nav{
+    display: flex;
+    flex-direction: column;
+    height: 335px;
+  }
+  footer .footer-list {
+    order: -1;
+    margin: 35px 0;
+  }
+  footer .footer-list ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  footer .footer-list ul li {
+    line-height: 50px;
+  }
+}

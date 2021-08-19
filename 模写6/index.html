@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="header-wrapper">
+      <div class="header-area">
+        <header class="header">
+          <div class="hamburger-nav">
+            <div id="nav">
+              <ul>
+                <li><a href="#">企業理念</a></li>
+                <li><a href="#">施工事例</a></li>
+                <li><a href="#">採用情報</a></li>
+                <li><a href="#">お問い合わせ</a></li>
+              </ul>
+            </div>
+            <div id="hamburger">
+              <span class="inner_line" id="line1"></span>
+              <span class="inner_line" id="line2"></span>
+              <span class="inner_line" id="line3"></span>
+            </div>
+          </div>
+          <img src="img/header_logo.png" alt="蒼乃建設">
+          <ul>
+            <li><a href="#">企業理念</a></li>
+            <li><a href="#">施工事例</a></li>
+            <li><a href="#">採用情報</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </header>
+        <div class="head-ttl">
+          <h1>街を作る。未来を作る。</h1>
+        </div>
+      </div>
+    </div>
+    <main>
+      <section class="sec01">
+        <h2 class="sec-ttl">お知らせ</h2>
+        <div class="thumb">
+          <dd>
+            <dt>
+              <a href="#">
+                <div class="news-nav">
+                  <date>2020.11.17</date>
+                  <span>お知らせ</span>
+                </div>
+                <p>本社打合せ室が完成しました。</p>
+              </a>
+            </dt>
+            <dt>
+              <a href="#">
+                <div class="news-nav">
+                  <date>2020.11.10</date>
+                  <span>お知らせ</span>
+                </div>
+                <p>【メディア掲載】住宅雑誌 2020年11月号</p>
+              </a>
+            </dt>
+            <dt>
+              <a href="#">
+                <div class="news-nav">
+                  <date>2020.11.01</date>
+                  <span>お知らせ</span>
+                </div>
+                <p>ホームページが完成しました。</p>
+              </a>
+            </dt>
+          </dd>
+        </div>
+      </section>
+      <section class="sec02">
+        <h2 class="sec-ttl">施工事例</h2>
+        <div class="example">
+          <article >
+            <img class="building-photo" src="img/building1.png" alt="M様邸新築工事">
+            <h3>M様邸新築工事</h3>
+            <p class="place">埼玉県</p>
+            <a href="#"><img class="more-img" src="img/more.png" alt="詳細を見る"></a>
+          </article>
+          <article >
+            <img class="building-photo" src="img/building2.png" alt="スカイビル">
+            <h3>スカイビル</h3>
+            <p class="place">東京都</p>
+            <a href="#"><img class="more-img" src="img/more.png" alt="詳細を見る"></a>
+          </article>
+        </div>
+        <div class="example-nav">
+          <a href="#"><p>施工実績一覧</p></a>
+        </div>
+      </section>
+      <section class="sec03">
+        <div class="detail">
+          <ul>
+            <li><a href="#"><img src="img/company.png" alt="企業理念"></a></li>
+            <li><a href="#"><img src="img/recruit.png" alt="採用情報"></a></li>
+            <li><a href="#"><img src="img/contact.png" alt="お問い合わせ"></a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-area">
+        <div class="footer-nav">
+          <div class="footer-logo">
+            <img src="img/footer_logo.png" alt="蒼乃建設">
+          </div>
+          <div class="footer-list">
+            <ul>
+              <li><a href="#">企業理念</a></li>
+              <li><a href="#">施工事例</a></li>
+              <li><a href="#">採用情報</a></li>
+              <li><a href="#">お問い合わせ</a></li>
+            </ul>
+          </div>
+        </div>
+        <p><small>Copyright © 2020 Aono Corporation.</small></p>
+    </div>
+    </footer>
+    <script>
+      function hamburger() {
+        document.getElementById("line1").classList.toggle("line_1");
+        document.getElementById("line2").classList.toggle("line_2");
+        document.getElementById("line3").classList.toggle("line_3");
+        document.getElementById("nav").classList.toggle("in");
+      };
+      document.getElementById("hamburger").addEventListener("click", function() {
+        hamburger();
+      });
+    </script>
+  </body>
+</html>
