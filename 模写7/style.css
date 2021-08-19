@@ -1,0 +1,419 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+body {
+  color: #333;
+  font-size: 1rem;
+  font-family: 'Noto Sans', 'Noto Sans JP', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+li {
+  list-style: none;
+}
+.inner {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 0 20px;
+  text-align: center;
+}
+.more {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+}
+.more p {
+  text-align: center;
+  display: inline-block;
+  border-bottom: 1px solid black;
+  font-size: 14px;
+}
+.more p:hover {
+  border-bottom: 1px solid rgba(255, 255, 255, 0);
+  transition: 0.3s;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.header-upper {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  text-align: left;
+}
+.header-upper img {
+  width: 145px;
+}
+.header-list {
+  width: 100%;
+  background-color: #000;
+}
+.header-list ul {
+  display: flex;
+  align-items: center;
+  height: 40px;
+}
+.header-list ul li + li{
+  margin-left: 60px;
+}
+.header-list ul li a {
+  color: white;
+  font-size: 14px;
+  font-style: normal;
+}
+.sec01 {
+  margin-top: 150px;
+}
+.sec01 ul {
+  display: flex;
+  justify-content: space-between;
+}
+.sec01 ul li {
+  width: calc(100% / 3);
+}
+.sec01 ul li + li {
+  margin-left: 20px;
+}
+.sec01 ul img {
+  width: 100%;
+}
+.sec01 ul h3 {
+  margin: 20px 0;
+  font-size: 16px;
+}
+.layout {
+  display: flex;
+  margin: 80px 0 136px;
+}
+.main {
+  width: 66%;
+  margin-right: 4%;
+  text-align: center;
+}
+.sec02 .blog-list {
+  width: 100%;
+  font-size: 14px;
+  margin-bottom: 85px;
+}
+.sec02 .blog-list h2 {
+  text-align: left;
+  font-size: 24px;
+  line-height: 40px;
+  margin-bottom: 15px;
+}
+.sec02 .blog-list .detail {
+  display: flex;
+}
+.sec02 .blog-list .detail p {
+  margin-left: 20px;
+}
+.sec02 img {
+  width: 100%;
+  margin: 15px 0;
+}
+.sec02 .blog-list .blog-text {
+  font-size: 16px;
+  margin: 0 48px 30px;
+  line-height: 24px;
+}
+.side-bar {
+  width: 30%;
+}
+.ttl {
+  font-size: 18px;
+  font-weight: 700;
+  font-style: normal;
+  margin-bottom: 35px;
+}
+.sec03 {
+  margin-bottom: 65px;
+}
+.sec03 .profiele {
+  display: flex;
+  flex-direction: column;
+}
+.sec03 .profiele .ttl {
+  order: 0;
+}
+.sec03 .profiele p {
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+}
+.sec03 .profiele img {
+  margin: 0 auto;
+  order: -1;
+  width: 130px;
+  margin-bottom: 40px;
+  border-radius: 50%;
+}
+.sec04 {
+  margin-bottom: 65px;
+}
+.sec04 .ranking ul li + li {
+  margin-top: 30px;
+}
+.sec04 .ranking img {
+  width: 100%;
+}
+.sec04 .ranking p {
+  line-height: 22px;
+  font-size: 14px;
+}
+.sec05 ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  width: 100%;
+  border-top: 1px solid black;
+}
+.sec05 ul li a {
+  font-size: 14px;
+}
+.sec05 ul li:last-of-type {
+  border-bottom: 1px solid black;
+}
+footer {
+  font-size: 14px;
+}
+.footer-upper {
+  background-color: #F7F7F7;
+}
+footer .ttl {
+  margin: 55px 0 35px;
+}
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 65px;
+}
+.footer-list {
+  width: calc(100% / 3);
+}
+.footer-list + .footer-list {
+  margin-left: 60px;
+}
+footer .about p {
+  line-height: 20px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+footer .about ul li {
+  text-align: left;
+}
+footer .about ul li::before {
+  content: "▶";
+}
+footer .about ul li a {
+  line-height: 26px;
+}
+footer .menu .menu-list {
+  width: 100%;
+  text-align: left;
+}
+footer .menu .menu-list li {
+  height: 50px;
+  line-height: 50px;
+  border-top: 1px solid black;
+}
+footer .menu .menu-list li:last-of-type {
+  border-bottom: 1px solid black;
+}
+footer .twitter-inner {
+  height: 315px;
+  overflow-y: scroll;
+}
+.footer-form {
+  height: 30px;
+}
+.footer-form p {
+  text-align: center;
+  font-size: 12px;
+}
+@media(max-width:767px) {
+  
+.header-list {
+  min-width: 500px;
+  background-color: #000;
+}
+  .header-scrollX {
+    overflow-x: scroll;
+  }
+  .inner {
+    text-align: left;
+  }
+  .more p {
+    margin-bottom: 30px;
+  }
+  .sec01 {
+    margin-top: 140px 0 70px;
+  }
+  .sec01 ul {
+    display: block;
+  }
+  .sec01 ul li {
+    width: 100%;
+  }
+  .sec01 ul li + li {
+    margin-left: 0;
+  }
+  .layout {
+    display: block;
+  }
+  .main {
+    width: 100%;
+    text-align: center;
+  }
+  .sec02 .blog-list {
+    margin-bottom: 55px;
+  }
+  .side-bar {
+    width: 100%;
+  }
+  .ttl {
+    text-align: center;
+  }
+  .sec04 .ranking img {
+    margin-bottom: 5px;
+  }
+  .sec05 ul li {
+    justify-content: flex-start;
+  }
+  .sec05 ul li a {
+    margin-left: 20px;
+  }
+  footer .ttl {
+    text-align: left;
+    margin: 0px 0 35px;
+  }
+  .footer-wrapper {
+    display: block;
+    padding: 55px 0 0 0;
+    margin-bottom: 95px;
+  }
+  .footer-list {
+    width: 100%;
+  }
+  .footer-list + .footer-list {
+    margin-left: 0;
+  }
+  footer .about {
+    margin-bottom: 60px;
+  }
+  footer .menu {
+    margin-bottom: 35px;
+  }
+  footer .twitter {
+    margin-bottom: ;
+  }
+  footer .twitter-inner {
+    height: 315px;
+    overflow-y: scroll;
+  }
+  .footer-form {
+    height: 30px;
+  }
+}
