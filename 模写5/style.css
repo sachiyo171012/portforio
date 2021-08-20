@@ -166,7 +166,7 @@ li {
   margin-top: 15px;
 }
 .position-center {
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: center;
 }
@@ -563,7 +563,7 @@ li {
 }
 .sec07 ul {
   width: 1100px;
-  margin: 10px;
+  margin: 0 auto;
 }
 .sec07 ul li {
   margin-top: 10px;
@@ -660,7 +660,7 @@ li {
   width: 100%;
   background: url(img/bg_item01.png)no-repeat center center / contain;
 }
-.sec09 .position-center {
+.sec09 .sec09-position-center {
   display: inline;
 }
 .sec09 .sec09-wrap {
@@ -798,11 +798,11 @@ footer a {
   display: none;
 }
 .dot-sp {
-  display: block;
+  display: inline;
 }
 @media (max-width: 767px) {
   .br-sp {
-    display: block;
+    display: inline;
   }
   .dot-sp {
     display: none;
