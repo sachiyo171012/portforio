@@ -69,14 +69,26 @@
             </li>
           </ul>
         </div>
+        <div class="contact">
+          <form action="confirm.php" method="post">
+            <dl>
+              <dt><label for="name">▼お名前</label></dt>
+              <dd><input type="text" required id="name" name="name"></dd>
+              <dt><label for="mail">▼メールアドレス</label></dt>
+              <dd><input type="email" required id="mail" name="mail"></dd>
+              <dt><label for="contents">▼内容</label></dt>
+              <dd><textarea name="contents" id="contents" cols="40" rows="10" required></textarea></dd>
+            </dl>
+            <button type="submit">確認画面へ</button>
+            <button type="reset">リセット</button>
+          </form>
+          <!-- <p>お問合せは<i class="fas fa-envelope"></i><a href="mailto:sachiyo.fukushima51&#64;gmail.com">sachiyo.fukushima51&#64;gmail.com</a>まで<br>
+              お気軽にお問い合わせください。</p>
+        </div> -->
       </main>
     </div>
     <footer>
       <div class="inner">
-        <div class="contact">
-          <p>お問合せは<i class="fas fa-envelope"></i><a href="mailto:sachiyo.fukushima51&#64;gmail.com">sachiyo.fukushima51&#64;gmail.com</a>まで<br>
-              お気軽にお問い合わせください。</p>
-        </div>
       </div>
     </footer>
   </body>
