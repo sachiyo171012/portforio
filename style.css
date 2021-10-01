@@ -146,16 +146,15 @@ li {
   line-height: 27px;
   font-weight: bold;
 }
-
+.contact a {
+  border-bottom: 1px solid #000;
+}
+.contact .fa-envelope {
+  margin: 0 5px;
+}
 footer {
   height: 100px;
   background-color: #000;
-}
-footer a {
-  border-bottom: 1px solid #000;
-}
-footer .fa-envelope {
-  margin: 0 5px;
 }
 @media (max-width:800px) {
   .works ul {
