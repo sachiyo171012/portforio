@@ -140,8 +140,13 @@ li {
 .skill-list li + li {
   margin-top: 15px;
 }
+.contact {
+  margin-bottom: 100px;
+}
+
 footer {
   height: 100px;
+  background-color: #000;
   font-size: 18px;
   line-height: 27px;
   font-weight: bold;
